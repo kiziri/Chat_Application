@@ -43,12 +43,12 @@ public class MainActivity extends AppCompatActivity {
 
     public void mainPageCLick(View view) {
         switch (view.getId()) {
-            case R.id.userLoginBtn :
+            case R.id.userLoginBtn1 :
                 intent = new Intent(MainActivity.this, LoginActivity.class);
                 startActivity(intent);
                 finish();
                 break;
-            case R.id.userJoinBtn :
+            case R.id.userJoinBtn1 :
 
                 break;
         }
