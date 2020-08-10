@@ -1,9 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoginActivity">
+    tools:context=".LoginActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20sp"
+    android:background="#FFF06A">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <EditText
+        android:id="@+id/userLoginId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="#000000"
+        android:layout_marginBottom="10sp"
+        android:hint="아이디" />
+
+    <EditText
+        android:id="@+id/userLoginPw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="#000000"
+        android:layout_marginBottom="20sp"
+        android:hint="비밀번호" />
+
+    <Button
+        android:id="@+id/userLoginBtn2"
+        android:onClick="loginPageCLick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="#FFFF00"
+        android:background="#000000"
+        android:layout_marginBottom="10sp"
+        android:padding="10sp"
+        android:text="로그인" />
+
+    <Button
+        android:id="@+id/userJoinBtn2"
+        android:onClick="loginPageCLick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="#FFFF00"
+        android:background="#000000"
+        android:layout_marginBottom="30sp"
+        android:padding="10sp"
+        android:text="회원 가입" />
+
+    <com.kakao.usermgmt.LoginButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" s/>
+
+
+</LinearLayout>
