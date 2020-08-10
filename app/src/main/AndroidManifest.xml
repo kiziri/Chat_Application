@@ -15,7 +15,7 @@
 
         <meta-data
             android:name="com.kakao.sdk.AppKey"
-            android:value="{NATIVE_APP_KEY}" /> //네이티브 앱 키 설정
+            android:value="{NATIVE_APP_KEY}" />
         <activity android:name=".LoginActivity"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
